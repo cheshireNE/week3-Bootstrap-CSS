@@ -1,0 +1,37 @@
+body {background-color: rgb(218, 230, 173);         
+}
+h1 {
+    color: rgb(61, 10, 245);
+    text-align: center;
+}
+h2 {
+    color: darkblue;
+}
+p {
+    font-size: 15px;
+    text-shadow: rgb(255, 60, 0) 1px 1px;
+}
+ul {
+    list-style-type: square;
+}
+h1 {
+    color:rgb(61, 10, 245)
+    text-align: center;
+}
+div {background-color: lime;
+border-style:solid;border-color: black;
+border-radius: 5px;}
+.shadow-text {
+    text-shadow: text-shadow:rgb(255, 60, 0) 1px 1px ;
+}
+
+#large-paragraph {
+    font-size: 20px;
+    color: blue;
+}
+img {
+    
+    float: right;
+height: 200px;
+text-align: center;
+}

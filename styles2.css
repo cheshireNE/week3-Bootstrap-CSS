@@ -1,0 +1,12 @@
+#example {  
+color: #333;   
+background-color: blue;   
+border-style: groove;    
+border-width: 3px;
+border-color: black; 
+border-radius: 5px;
+height: 200px;      
+text-align: center; 
+
+}
+#example {}

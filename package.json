@@ -1,0 +1,16 @@
+{
+  "name": "week-2-css",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "week-2-css": "file:"
+  }
+}
