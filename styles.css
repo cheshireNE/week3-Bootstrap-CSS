@@ -1,37 +1,58 @@
-body {background-color: rgb(218, 230, 173);         
-}
-h1 {
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background for better contrast */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  h1 {
     color: rgb(61, 10, 245);
     text-align: center;
-}
-h2 {
-    color: darkblue;
-}
-p {
-    font-size: 15px;
-    text-shadow: rgb(255, 60, 0) 1px 1px;
-}
-ul {
-    list-style-type: square;
-}
-h1 {
-    color:rgb(61, 10, 245)
-    text-align: center;
-}
-div {background-color: lime;
-border-style:solid;border-color: black;
-border-radius: 5px;}
-.shadow-text {
-    text-shadow: text-shadow:rgb(255, 60, 0) 1px 1px ;
-}
-
-#large-paragraph {
-    font-size: 20px;
-    color: blue;
-}
-img {
-    
-    float: right;
-height: 200px;
-text-align: center;
-}
+    text-shadow: 1px 1px rgb(255, 60, 0);
+  }
+  
+  /* Paragraph Styles */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Image Styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Row and Column Adjustments */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
