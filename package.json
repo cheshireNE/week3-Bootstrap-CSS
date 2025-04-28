@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@octokit/rest": "^21.1.1",
     "bootstrap": "^5.3.5",
     "week-2-css": "file:"
   }
